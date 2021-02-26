@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 750px;
+    background-color:bisque;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.img{
+    height: 100px;
+    width: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: turquoise;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.div_clear{
+    clear: both;
+}
+hr{
+    border: black solid 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left_div{
+    width: 30%;
+    float: left;
+}
+.right_div{
+    width: 70%;
+    float: right;
+}
+.common_hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.div-left{
+    float: left;
+    width: 45%;
+}
+.div-right{
+    float: right;
+    width: 45%;
+}
+#ref a{
+    text-decoration: none;
+    color:teal;
+
+}
+#ref a:hover{
+    text-decoration: none;
+    color:black;
+
+}
+#education a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+#education a:hover{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.bottom{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.bottom a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    max-width: 20px;
+}
+.bottom a:hover{
+    color:tomato;
+    text-align: center;
+    text-decoration: none;
+    max-width: 20px;
+}
